@@ -21,6 +21,31 @@
             <label for="">パスワード</label>
             <input type="password" name="password">
         </div>
+        <div>
+            <label for="">生年月日</label>
+            <select name="year">
+                <?php foreach (range(1900, date('Y')) as $year): ?>
+                <option value="<?= $year ?>"><?= $year ?></option>
+                <?php endforeach ?>
+            </select>
+            <select name="month">
+                <?php foreach (range(1, 12) as $month): ?>
+                <option value="<?= $month ?>"><?= $month ?></option>
+                <?php endforeach ?>
+            </select>
+            <select name="day">
+                <?php foreach (range(1, 31) as $day): ?>
+                <option value="<?= $day ?>"><?= $day ?></option>
+                <?php endforeach ?>
+            </select>
+        </div>
+        <div>
+            <label for="">性別</label>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
         <button>確認</button>
     </form>
 </body>

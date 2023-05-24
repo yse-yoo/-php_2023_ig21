@@ -24,6 +24,18 @@ $regist = $_POST;
             <label for="">Email</label>
             <?= $regist['email'] ?>
         </div>
+        <div>
+            <label for="">生年月日</label>
+            <?= $regist['year'] ?>
+            /
+            <?= $regist['month'] ?>
+            /
+            <?= $regist['day'] ?>
+        </div>
+        <div>
+            <label for="">性別</label>
+            <?= $regist['gender'] ?>
+        </div>
         <button>登録</button>
     </form>
 </body>
