@@ -1,3 +1,9 @@
+<?php
+// PHP program
+$regist = $_POST;
+var_dump($regist);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
