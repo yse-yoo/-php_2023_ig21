@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
     <title>Regist</title>
 </head>
 <body>
-    <h1>入力画面</h1>
+    <h1>確認画面</h1>
+    <p>この内容で登録してもよろしいですか？</p>
     <form action="" method="post">
         <div>
             <label for="">氏名</label>
-            <input type="text" name="name">
         </div>
         <div>
             <label for="">Email</label>
-            <input type="email" name="email">
         </div>
         <div>
             <label for="">パスワード</label>
-            <input type="password" name="password">
         </div>
-        <button>確認</button>
+        <button>登録</button>
     </form>
 </body>
 </html>
