@@ -2,6 +2,8 @@
 // PHP program
 $regist = $_POST;
 // var_dump($regist);
+$genders['male'] = "男性"; 
+$genders['female'] = "女性"; 
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +32,7 @@ $regist = $_POST;
         </div>
         <div>
             <label for="">性別</label>
-            <?= $regist['gender'] ?>
+            <?= $genders[$regist['gender']] ?>
         </div>
         <button>登録</button>
     </form>
