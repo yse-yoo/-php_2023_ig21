@@ -26,11 +26,7 @@ $regist = $_POST;
         </div>
         <div>
             <label for="">生年月日</label>
-            <?= $regist['year'] ?>
-            /
-            <?= $regist['month'] ?>
-            /
-            <?= $regist['day'] ?>
+            <?= $regist['year'] ?>/<?= $regist['month'] ?>/<?= $regist['day'] ?>
         </div>
         <div>
             <label for="">性別</label>
